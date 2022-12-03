@@ -1,0 +1,99 @@
+import java.nio.channels.GatheringByteChannel;
+import java.util.Scanner;
+
+
+    public class App {
+        public static void main(String[] args) {
+            String time1 = ("Brasil");
+            String time2 = ("Alemanha");
+            String time3 = ("Holanda");
+            String time4 = (" Argentina");
+            String g = ("Ganha");
+            String p =("Perde");
+
+            System.out.print("Estamos na Copa do Mundo 2014. Após uma copa surpreedente e favoritas eliminadas na fase de grupos"+
+            ", um grade exemplo disto é a campeã de 2010: a Espanha."+
+            " \n Que fez uma campanha surpreende na África do Sul em 2010 "+
+            " \n Ganhando da seleção Holandesa com um placar de 1x0"+
+            "\n Joga acirrado com gol marcado nos acréscimos"+
+            "\n Mas voltando ao que interessa, agora disputada no Brasil, Brasil 2014, é Copa do Mundo "+
+            "\n e estamos nas Semifinais."+
+            "\n Temos confrotos diretos entre: "+
+            "\n Brasil x Alemanha"+
+            "\n Holanda x Argentina");
+                            
+            Scanner time = new Scanner(System.in);
+            System.out.print("\n As seleções estão prontas, ");
+            String escolha = time.nextLine();
+            if(escolha.equals(time1)){
+                System.out.print("\n Ganha ou perde? ");
+                String winlose = time.nextLine();
+                if(winlose.equals(g)){
+                    System.out.print("\n Impressionante, O Brasil vence a Alemenha!");
+                    System.out.print(" \n O Brasil agora está na final e enfrentará a Argentina.");
+                    System.out.print(" \n E agora? Ganha ou perde? ");
+                    String winlose2 = time.nextLine();
+                 if(winlose2.equals(g)){
+                    System.out.print("\n O BRASIL É HEXAA! Campeão do mundo 2014. Em uma perfomance impecável vence a Argentina. ");}
+            
+                }
+                else if(winlose.equals(p)){
+                    System.out.print("\n Que pena! Brasil fica pelo caminho. Teremos o confronto entre Alemanha e Argentina na final ");
+                
+                }             
+                }
+                if(escolha.equals(time2)){
+                System.out.print("\n Ganha ou perde? ");
+                String winlose3 = time.nextLine();
+                if(winlose3.equals(g)){
+                System.out.print("\n Impressionante, A Alemanha vence O Brasil!");
+                System.out.print(" \n A Alemanha agora está na final e enfrentará a Argentina.");
+                    System.out.print(" \n E agora? Ganha ou perde? ");
+                    String winlose2 = time.nextLine();
+                 if(winlose2.equals(g)){
+                    System.out.print("\n A Alemanha é a Campeã do mundo 2014. Em uma perfomance impecável vence a Argentina. ");}
+                 }
+                 else if(winlose3.equals(p)){
+                    System.out.print("\n Que pena! Alemanha fica pelo caminho. Teremos o confronto entre Brasil e Argentina na final ");
+               
+                 }
+                }
+
+                if(escolha.equals(time3)){
+                    System.out.print("\n Ganha ou perde? ");
+                    String winlose3 = time.nextLine();
+                    if(winlose3.equals(g)){
+                    System.out.print("\n Impressionante, A Holanda vence A Argentina!");
+                    System.out.print(" \n A Holanda agora está na final e enfrentará a Alemanha.");
+                        System.out.print(" \n E agora? Ganha ou perde? ");
+                        String winlose2 = time.nextLine();
+                     if(winlose2.equals(g)){
+                        System.out.print("\n A Holanda é a Campeã do mundo 2014. Em uma perfomance impecável vence a Alemanha. ");}
+                     }
+                     else if(winlose3.equals(p)){
+                        System.out.print("\n Que pena! Holanda fica pelo caminho. Teremos o confronto entre Alemanha e Argentina na final ");
+                     }
+                    }
+                    if(escolha.equals(time4)){
+                        System.out.print("\n Ganha ou perde? ");
+                        String winlose3 = time.nextLine();
+                        if(winlose3.equals(g)){
+                        System.out.print("\n Impressionante, A Argentina vence a Hoalanda!");
+                        System.out.print(" \n A Argentina agora está na final e enfrentará a Alemanha.");
+                            System.out.print(" \n E agora? Ganha ou perde? ");
+                            String winlose2 = time.nextLine();
+                         if(winlose2.equals(g)){
+                            System.out.print("\n A Argentina é a Campeã do mundo 2014. Em uma perfomance impecável vence a Alemanha. ");}
+                         }
+                         else if(winlose3.equals(p)){
+                            System.out.print("\n Que pena! Argentina fica pelo caminho. Teremos o confronto entre Holanda e Alemanha na final ");
+                       
+                         }
+                        }
+                System.out.print("\n Esta foi a copa do mundo 2014 meus amigos. Nos vemos daqui a 4 anos. Muitíssimo obrigado e até a próxima ");
+
+
+
+            
+            }
+        }
